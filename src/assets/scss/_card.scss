@@ -75,6 +75,9 @@
         margin-left: auto;
         h1 {
           line-height: 1 !important;
+          @media screen and (max-width: 320px) {
+            font-size: 22pt;
+          }
         }
         p {
           margin: 0;
