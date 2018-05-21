@@ -1,0 +1,55 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10pt;
+  .card {
+    border-radius: $card-radius;
+    background: $white;
+    box-shadow: $card-shadow;
+    padding: inherit;
+    margin: 10pt;
+    display: flex;
+    &.card-head {
+      flex-direction: row;
+      flex-flow: wrap;
+      justify-content: center;
+      align-items: center;
+      .image {
+        background-position: center;
+        background-size: cover;
+        height: 60pt;
+        width: 60pt;
+        margin-right: 20pt;
+        border-radius: 50%;
+        display: inline-flex;
+        box-shadow: $card-shadow;
+      }
+      .content {
+        width: calc(100% - 80pt);
+        display: inline-flex;
+        flex-direction: column;
+      }
+      .icon-list {
+        display: flex;
+        margin-top: 10pt;
+        .icon {
+          background-color: $tone;
+          box-shadow: $card-shadow;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+          height: 2rem;
+          width: 2rem;
+          text-align: center;
+          margin: 0 5pt;
+          a {
+            color: $white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
