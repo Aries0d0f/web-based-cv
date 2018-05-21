@@ -1,0 +1,14 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20pt;
+  p {
+    font-size: 10pt;
+    color: $gray-blue;
+    opacity: .5;
+    &:first {
+      border-right: 1px solid $content;
+    }
+  }
+}
