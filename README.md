@@ -1,4 +1,4 @@
-# aries-website
+# aries-personal-website
 
 > A Vue.js project
 
