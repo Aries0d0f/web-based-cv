@@ -1,0 +1,22 @@
+.icon-list {
+  display: flex;
+  margin: 5pt 10pt;
+  padding: 0 10pt;
+  justify-content: space-between;
+  .icon {
+    background: $tone-gradient;
+    box-shadow: $card-shadow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    height: 2.3rem;
+    width: 2.3rem;
+    text-align: center;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

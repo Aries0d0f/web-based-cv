@@ -1,0 +1,21 @@
+.rate {
+  .bar {
+    position: relative;
+    margin: 5pt 0;
+    height: 10pt;
+    border-radius: 5pt;
+    width: 100%;
+    background-color: darken($white, 10);
+    @for $i from 1 through 5 {
+      &.rate-#{$i}:before {
+        border-radius: inherit;
+        position: absolute;
+        content: '';
+        height: inherit;
+        width: calc((100% - 10pt) * (#{$i * 0.2}));
+        background: $tone-gradient;
+        box-shadow: 1pt 1pt 5pt rgba($tone, .5);
+      }
+    }
+  }
+}
