@@ -41,7 +41,7 @@
       return {
         name: 'Aries Cs',
         id: '@aries0d0f',
-        photo: 'https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/32231624_1311310092346688_8354180873595125760_n.jpg?_nc_cat=0&oh=22f5c0e2f9efa2491cccaead7e11ba06&oe=5B78629D',
+        photo: 'https://i.imgur.com/ufhMP9v.jpg',
         contacts: [
           {
             link: 'https://github.com/Aries0d0f',
