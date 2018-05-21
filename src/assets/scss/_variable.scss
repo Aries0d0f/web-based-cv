@@ -1,3 +1,5 @@
 // card
 $card-radius: 10pt;
-$card-shadow: 2pt 2pt 10pt rgba($gray-blue, .5);
+$card-shadow: 1pt 1pt 5pt rgba($gray-blue, .5);
+
+$tone-gradient: linear-gradient(135deg, $tone, darken($tone, 20))
