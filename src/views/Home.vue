@@ -60,7 +60,7 @@
             icon: ['fab', 'facebook-f']
           },
           {
-            link: 'https://linkedin.com/in/cs-aries-55677a145/',
+            link: 'https://www.linkedin.com/in/aries-cs-55677a145/',
             icon: ['fab', 'linkedin-in']
           },
           {
