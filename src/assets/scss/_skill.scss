@@ -1,0 +1,21 @@
+.skill {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2pt 0;
+    p {
+      display: inline-flex;
+      margin: 0 !important;
+      margin-right: auto !important;
+    }
+  }
+
+  &-item {
+    margin: 5pt 0;
+    p {
+      line-height: 1.2;
+      font-size: 10pt !important;
+      margin: 0 !important;
+    }
+  }
+}

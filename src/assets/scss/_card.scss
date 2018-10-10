@@ -7,15 +7,15 @@
     display: grid;
     grid-template-areas:
     "head head"
-    "link skill"
-    "about skill"
+    "about contact"
+    "experience contact"
     "experience skill";
-    grid-template-columns: 1fr 20rem;
+    grid-template-columns: 1fr 18rem;
     #head {
       grid-area: head; 
     }
-    #link {
-      grid-area: link;
+    #contact {
+      grid-area: contact;
     }
     #about {
       grid-area: about;
@@ -25,6 +25,9 @@
     }
     #experience {
       grid-area: experience;
+    }
+    #project {
+      grid-area: project;
     }
   }
   .card {
@@ -40,10 +43,11 @@
       font-size: 11pt;
       color: $content;
       &.tag {
+        font-weight: 500;
         font-size: 9pt;
         display: inline-block;
         color: $white;
-        border-radius: 5pt;
+        border-radius: 1rem;
         padding: 0 5pt;
         margin-top: 10pt;
         background: $tone-gradient;
