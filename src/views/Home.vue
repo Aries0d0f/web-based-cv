@@ -16,11 +16,11 @@
       </a>
     </div>
     <div id="about" class="card">
-      <h2>關於我</h2>
+      <h2>About</h2>
       <p v-for="paragraph in about" :key="paragraph">{{ paragraph }}</p>
     </div>
     <div id="skill" class="card">
-      <h2>技能</h2>
+      <h2>Skill</h2>
       <div class="skill-container" v-for="(collection, i) in skillCollection" :key="i">
         <p class="tag">{{ collection.name }}</p>
         <div class="skill-item">
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div id="experience" class="card">
-      <h2>經驗</h2>
+      <h2>Experience</h2>
       <div v-for="(item, i) in experience" :key="i">
         <p class="tag">{{ item.date }}</p>
         <p>{{ item.title }}</p>
