@@ -38,6 +38,9 @@
     margin: 10pt;
     display: flex;
     flex-direction: column;
+    h2 {
+      font-weight: 500;
+    }
     p {
       margin-top: 5pt;
       font-size: 11pt;
@@ -78,6 +81,7 @@
         flex-direction: column;
         margin-left: auto;
         h1 {
+          font-weight: 500;
           line-height: 1 !important;
           @media screen and (max-width: 320px) {
             font-size: 22pt;
