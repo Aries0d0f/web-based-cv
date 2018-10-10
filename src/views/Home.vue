@@ -7,22 +7,25 @@
         <p>{{ id }}</p>
       </div>
     </div>
-    <div id="link" class="icon-list">
-      <div class="icon" v-for="(contact, i) in contacts" :key="i">
-        <a :href="contact.link" target="_blank"><font-awesome-icon :icon="contact.icon" /></a>
-      </div>
+    <div id="contact" class="contact-list">
+      <a class="contact" v-for="(contact, i) in contacts" :key="i" :href="contact.link" target="_blank">
+        <div class="icon">
+          <font-awesome-icon :icon="contact.icon" />
+        </div>
+        <p>{{ contact.id || contact.link.match(/((:)|(\/\/))+(.*)/)[4] }}</p>
+      </a>
     </div>
     <div id="about" class="card">
       <h2>關於我</h2>
-      <p>你好，我是白羊，很高興認識你。</p>
-      <p>左手編程、右手設計，我喜歡運用資訊技術解決生活大小事，透過設計充實生活。</p>
-      <p>現任李梅樹紀念館資訊組RD、蘋果仁科技媒體編輯。</p>
+      <p v-for="paragraph in about" :key="paragraph">{{ paragraph }}</p>
     </div>
     <div id="skill" class="card">
-      <h2>技能樹</h2>
-      <div class="rate" v-for="(item, i) in skill" :key="i">
-        <p>{{ item.name }}</p>
-        <div class="bar" :class="`rate-${item.rate}`"></div>
+      <h2>技能</h2>
+      <div class="skill-container" v-for="(collection, i) in skillCollection" :key="i">
+        <p class="tag">{{ collection.name }}</p>
+        <div class="skill-item">
+          <p>{{ collection.skill.join(', ') }}.</p>
+        </div>
       </div>
     </div>
     <div id="experience" class="card">
@@ -42,6 +45,11 @@
         name: 'Aries Cs',
         id: '@aries0d0f',
         photo: 'https://i.imgur.com/ufhMP9v.jpg',
+        about: [
+          '左手編程、右手設計，我喜歡運用資訊技術解決生活大小事、透過設計充實生活。',
+          '我擅長 Web 開發，目前擁有三年的前端開發經驗、兩年的全端開發經驗、團體合作開發經驗三年，另有一年的網頁教學經驗。',
+          '現職於李梅樹紀念館資訊組、蘋果仁科技媒體。'
+        ],
         contacts: [
           {
             link: 'https://github.com/Aries0d0f',
@@ -60,7 +68,8 @@
             icon: ['fab', 'facebook-f']
           },
           {
-            link: 'https://www.linkedin.com/in/aries-cs-55677a145/',
+            link: 'https://linkedin.com/in/aries-cs-55677a145/',
+            id: 'aries-cs-55677a145',
             icon: ['fab', 'linkedin-in']
           },
           {
@@ -68,34 +77,22 @@
             icon: ['fab', 'telegram-plane']
           }
         ],
-        skill: [
+        skillCollection: [
           {
-            name: 'HTML & CSS',
-            rate: 5
+            name: 'Front-end',
+            skill: ['HTML & CSS', 'SCSS', 'JavaScript', 'RWD']
           },
           {
-            name: 'UI／UX Design',
-            rate: 5
+            name: 'Back-end',
+            skill: ['Node.js', 'RESTfull WebService']
           },
           {
-            name: 'JavaScript',
-            rate: 4
+            name: 'Framework',
+            skill: ['Vue.js', 'Koa.js', 'express.js']
           },
           {
-            name: 'Node.js',
-            rate: 4
-          },
-          {
-            name: 'Vue.js',
-            rate: 4
-          },
-          {
-            name: 'Linux Server Administration',
-            rate: 4
-          },
-          {
-            name: 'RESTful API',
-            rate: 4
+            name: 'Others',
+            skill: ['UI/UX Design', 'Linux SA', 'Google Analytics']
           }
         ],
         experience: [
@@ -108,7 +105,7 @@
             date: '現任'
           },
           {
-            title: '#UnaHack1 黑客松特別獎',
+            title: '#UnaHack1 黑客松 Azure Power Bi 獎',
             date: '2017/02'
           },
           {
