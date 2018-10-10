@@ -17,7 +17,6 @@
 
     p {
       display: none;
-      transition: background ease-in-out .3s;
       margin-left: 1rem;
     }
 
@@ -41,11 +40,11 @@
         box-shadow: $tone-shadow-hover;
       }
 
-      p {
+      span {
+        font-weight: 500;
         background: $tone-gradient;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        transition: all ease-in-out .3s;
       }
     }
 

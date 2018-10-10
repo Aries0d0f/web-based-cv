@@ -12,7 +12,7 @@
         <div class="icon">
           <font-awesome-icon :icon="contact.icon" />
         </div>
-        <p>{{ contact.id || contact.link.match(/((:)|(\/\/))+(.*)/)[4] }}</p>
+        <p><span>{{ contact.id || contact.link.match(/((:)|(\/\/))+(.*)/)[4] }}</span></p>
       </a>
     </div>
     <div id="about" class="card">
