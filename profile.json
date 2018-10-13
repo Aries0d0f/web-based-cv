@@ -42,7 +42,7 @@
     "skill": ["HTML & CSS", "SCSS", "JavaScript", "RWD"]
   }, {
     "name": "Back-end",
-    "skill": ["Node.js", "RESTful WebService"]
+    "skill": ["Node.js", "RESTful WebService", "MariaDB", "MongoDB"]
   }, {
     "name": "Framework",
     "skill": ["Vue.js", "Koa.js", "express.js"]
