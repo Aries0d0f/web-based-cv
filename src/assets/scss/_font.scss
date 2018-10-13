@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css'); 
 
 h1,
 h2,
@@ -12,7 +13,7 @@ ul,
 li,
 span {
   line-height: 1.6;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
 }
