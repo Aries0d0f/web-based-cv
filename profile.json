@@ -15,7 +15,7 @@
   "photo": "https://i.imgur.com/ufhMP9v.jpg",
   "about": [
     ["左手編程、右手設計，我喜歡運用資訊技術解決生活大小事、透過設計充實生活。", "我擅長 Web 開發，目前擁有三年的前端開發經驗、兩年的全端開發經驗、團體合作開發經驗三年，另有一年的網頁教學經驗。", "現職於李梅樹紀念館資訊組、蘋果仁科技媒體。"],
-    ["I am good at Web development. I currently have 3 years of front-end development experience, 2 years of full-stack development experience, 3-year of team working experience, and 1 year of web teaching experience."]
+    ["I am good at Web development. I currently have 3 years of front-end development experience, 2 years of full-stack development experience, 3 years of team working experience, and 1 year of web teaching experience."]
   ],
   "contacts": [{
     "link": "https://github.com/Aries0d0f",
@@ -58,14 +58,14 @@
       "title": "蘋果仁 Applealmond 編輯",
       "date": "現任"
     }, {
-      "title": "#UnaHack1 黑客松 Azure Power Bi 獎",
-      "date": "2017/02"
+      "title": "中崙高中資研社網頁前端課程專任講師",
+      "date": "2017/10"
     }, {
       "title": "李梅樹紀念館暑期志工資訊能力訓練課程講師",
       "date": "2017/07"
     }, {
-      "title": "中崙高中資研社網頁前端課程專任講師",
-      "date": "2017/10"
+      "title": "#UnaHack1 黑客松 Azure Power Bi 獎",
+      "date": "2017/02"
     }],
     [{
       "title": "Li Mei-Shu Memorial Gallery IT as Research and Development",
@@ -74,14 +74,14 @@
       "title": "Applealmond tech media as Editor",
       "date": "Now"
     }, {
-      "title": "#UnaHack1 hackthon Azure Power Bi reward",
-      "date": "2017/02"
+      "title": "Lecturer of the Web course of ZhongLun High School",
+      "date": "2017/10"
     }, {
       "title": "Li Mei-Shu Memorial Gallery Summer Volunteer Information Skills Training Course Lecturer",
       "date": "2017/07"
     }, {
-      "title": "Lecturer of the Web course of ZhongLun High School",
-      "date": "2017/10"
+      "title": "#UnaHack1 hackthon Azure Power Bi reward",
+      "date": "2017/02"
     }]
   ]
 }
