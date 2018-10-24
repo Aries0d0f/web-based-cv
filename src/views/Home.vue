@@ -20,7 +20,7 @@
       <p v-for="paragraph in about[lang.index]" :key="paragraph">{{ paragraph }}</p>
     </div>
     <div id="skill" class="card">
-      <h2>Skill</h2>
+      <h2>Skills</h2>
       <div class="skill-container" v-for="(collection, i) in skillCollection" :key="i">
         <p class="tag">{{ collection.name }}</p>
         <div class="skill-item">
