@@ -39,7 +39,7 @@
   }],
   "skillCollection": [{
     "name": "Front-end",
-    "skill": ["HTML & CSS", "SCSS", "JavaScript", "RWD"]
+    "skill": ["HTML & CSS", "SCSS", "JavaScript", "TypeScript", "RWD"]
   }, {
     "name": "Back-end",
     "skill": ["Node.js", "RESTful WebService", "MariaDB", "MongoDB"]
@@ -48,7 +48,7 @@
     "skill": ["Vue.js", "Koa.js", "express.js"]
   }, {
     "name": "Others",
-    "skill": ["UI/UX Design", "Linux SA", "Google Analytics"]
+    "skill": ["UI/UX Design", "Linux SA", "Sketch", "Adobe Ps/Ai/Id", "Google Analytics"]
   }],
   "experience": [
     [{
