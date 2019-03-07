@@ -39,13 +39,10 @@
   }],
   "skillCollection": [{
     "name": "Front-end",
-    "skill": ["HTML & CSS", "SCSS", "JavaScript", "TypeScript", "RWD"]
+    "skill": ["HTML & CSS", "CSS preprocessor", "JavaScript", "Vue.js", "Nuxt.js", "RWD", "SEO"]
   }, {
     "name": "Back-end",
-    "skill": ["Node.js", "RESTful WebService", "MariaDB", "MongoDB"]
-  }, {
-    "name": "Framework",
-    "skill": ["Vue.js", "Koa.js", "express.js"]
+    "skill": ["Node.js", "TypeScript", "RESTful WebService", "GraphQL", "MariaDB", "MongoDB"]
   }, {
     "name": "Others",
     "skill": ["UI/UX Design", "Linux SA", "Sketch", "Adobe Ps/Ai/Id", "Google Analytics"]
