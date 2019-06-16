@@ -38,14 +38,17 @@
     "icon": ["fab", "telegram-plane"]
   }],
   "skillCollection": [{
-    "name": "Front-end",
-    "skill": ["HTML & CSS", "CSS preprocessor", "JavaScript", "Vue.js", "Nuxt.js", "RWD", "SEO"]
+    "name": "Programming Language",
+    "skill": ["Node.js", "TypeScript", "JavaScript"]
   }, {
-    "name": "Back-end",
-    "skill": ["Node.js", "TypeScript", "RESTful WebService", "GraphQL", "MariaDB", "MongoDB"]
+    "name": "Framework",
+    "skill": ["Vue.js", "Nuxt.js", "express.js", "Koa.js", "Prisma"]
   }, {
-    "name": "Others",
-    "skill": ["UI/UX Design", "Linux SA", "Sketch", "Adobe Ps/Ai/Id", "Google Analytics"]
+    "name": "Domain Knowledge",
+    "skill": ["HTML & CSS", "CSS preprocessor", "RWD", "Web Development", "RESTful WebService", "GraphQL", "WebSocket", "DBMS", "UI/UX Design", "Linux Server Administration", "Google Analytics"]
+  }, {
+    "name": "Software & Utility",
+    "skill": ["Git", "Adobe Ps/Ai/Id", "Sketch"]
   }],
   "experience": [
     [{
