@@ -12,22 +12,21 @@
   ],
   "name": ["Aries Cs", "Aries Cs"],
   "id": "@aries0d0f",
-  "photo": "https://i.imgur.com/ufhMP9v.jpg",
+  "photo": "https://www.gravatar.com/avatar/8d31d2035b820ea05fa055166c03b823?s=320",
   "about": [
-    ["左手編程、右手設計，我喜歡運用資訊技術解決生活大小事、透過設計充實生活。", "我擅長 Web 開發，目前擁有三年的前端開發經驗、兩年的全端開發經驗、團體合作開發經驗三年，另有一年的網頁教學經驗。", "現職於李梅樹紀念館資訊組、蘋果仁科技媒體。"],
-    ["I am good at Web development. I currently have 3 years of front-end development experience, 2 years of full-stack development experience, 3 years of team working experience, and 1 year of web teaching experience."]
+    ["左手編程、右手設計，我喜歡運用資訊技術解決生活大小事、透過設計充實生活。", "我擅長 Web 開發，目前擁有四年的前端開發經驗、三年的全端開發經驗、團體合作開發經驗三年，另有一年的網頁教學經驗。", "現職於盧氪賽忒股份有限公司擔任技術顧問，負責其資安相關產品應用的介面設計規劃與前端開發。"],
+    ["I am good at Web development. I currently have 4 years front-end development experience, 3 years full-stack development experience, 3 years team working experience, and 1 year of front-end teaching experience. Now working at Leukocyte-Lab as Technical Consultant, responsible for the UI Design / Front-end Develop of their Security Products."]
   ],
   "contacts": [{
-    "link": "https://github.com/Aries0d0f",
+    "link": "https://aries0d0f.me/s/github",
+    "id": "github.com/Aries0d0f",
     "icon": ["fab", "github"]
   }, {
     "link": "mailto:aries0d0f@gmail.com",
     "icon": ["fas", "envelope"]
   }, {
-    "link": "tel:+886966657716",
-    "icon": ["fas", "phone"]
-  }, {
-    "link": "https://fb.com/aries0d0f",
+    "link": "https://aries0d0f.me/s/fb",
+    "id": "fb.com/Aries0d0f",
     "icon": ["fab", "facebook-f"]
   }, {
     "link": "https://linkedin.com/in/aries-cs-55677a145/",
@@ -45,40 +44,56 @@
     "skill": ["Vue.js", "Nuxt.js", "express.js", "Koa.js", "Prisma"]
   }, {
     "name": "Domain Knowledge",
-    "skill": ["HTML & CSS", "CSS preprocessor", "RWD", "Web Development", "RESTful WebService", "GraphQL", "WebSocket", "DBMS", "UI/UX Design", "Linux Server Administration", "Google Analytics"]
+    "skill": ["HTML & CSS", "CSS Preprocessor", "RWD", "Web Development", "RESTful WebService", "GraphQL", "WebSocket", "RDBMS", "MongoDB", "UI/UX Design", "Linux Server Administration", "Docker", "ESXi Solution", "System Analysts & Design"]
   }, {
     "name": "Software & Utility",
-    "skill": ["Git", "Adobe Ps/Ai/Id", "Sketch"]
+    "skill": ["Git", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Sketch", "Google Analytics", "Google Tag Manager"]
+  }, {
+    "name": "Others",
+    "skill": ["Computer Facilities Planning & Deployment", "10Gbps Network Solution Planning & Deployment", "Computer Hardware Reparation", "Server Hardware Procurement"]
   }],
   "experience": [
     [{
-      "title": "李梅樹紀念館資訊組研發長",
-      "date": "2016/06 ~ 現任"
+      "title": "盧氪賽忒股份有限公司 技術顧問（前端開發 及 UI/UX 設計）",
+      "date": "2019/09 ~ 現任"
     }, {
-      "title": "蘋果仁 Applealmond 編輯",
-      "date": "2017/07 ~ 現任"
+      "title": "李梅樹紀念館資訊組 研發長",
+      "date": "2016/06 ~ 2020/01"
     }, {
-      "title": "WikiData 臺灣社群共同發起人",
+      "title": "SITCON 學生計算機年會 開發組組長",
+      "date": "2019, 2020"
+    }, {
+      "title": "WIKIDATA Taiwan 社群共同發起人",
       "date": "2019/02"
     }, {
-      "title": "中崙高中資研社網頁前端課程專任講師",
+      "title": "蘋果仁 Applealmond 科技媒體編輯",
+      "date": "2017/07 ~ 2018/12"
+    }, {
+      "title": "中崙高中資研社 網頁前端課程專任講師",
       "date": "2017/10"
     }, {
-      "title": "李梅樹紀念館暑期志工資訊能力訓練課程講師",
+      "title": "李梅樹紀念館 暑期志工資訊能力訓練課程講師",
       "date": "2017/07"
     }, {
       "title": "#UnaHack1 黑客松 Azure Power Bi 獎",
       "date": "2017/02"
     }],
     [{
+      "title": "Leukocyte-Lab co.,ltd. as Technical Consultant (Front-end Develop and UI/UX Design)",
+      "date": "2019/09 ~ Now"
+    },
+    {
       "title": "Li Mei-Shu Memorial Gallery IT as Research and Development",
-      "date": "2016/06 ~ Now"
+      "date": "2016/06 ~ 2020/01"
+    }, {
+      "title": "SITCON Students' Information Technology Conference as Research and Development Team Leader",
+      "date": "2019/02"
+    }, {
+      "title": "WIKIDATA Taiwan Community Co-Founder",
+      "date": "2019/02"
     }, {
       "title": "Applealmond tech media as Editor",
-      "date": "2017/07 ~ Now"
-    }, {
-      "title": "WikiData Taiwan Community Co-Founder",
-      "date": "2019/02"
+      "date": "2017/07 ~ 2018/12"
     }, {
       "title": "Lecturer of the Web course of ZhongLun High School",
       "date": "2017/10"
