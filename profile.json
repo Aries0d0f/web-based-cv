@@ -18,16 +18,13 @@
     ["I am good at Web development. I currently have 3 years of front-end development experience, 2 years of full-stack development experience, 3 years of team working experience, and 1 year of web teaching experience."]
   ],
   "contacts": [{
-    "link": "https://github.com/Aries0d0f",
+    "link": "https://aries0d0f.me/s/github",
     "icon": ["fab", "github"]
   }, {
     "link": "mailto:aries0d0f@gmail.com",
     "icon": ["fas", "envelope"]
   }, {
-    "link": "tel:+886966657716",
-    "icon": ["fas", "phone"]
-  }, {
-    "link": "https://fb.com/aries0d0f",
+    "link": "https://aries0d0f.me/s/fb",
     "icon": ["fab", "facebook-f"]
   }, {
     "link": "https://linkedin.com/in/aries-cs-55677a145/",
@@ -45,10 +42,10 @@
     "skill": ["Vue.js", "Nuxt.js", "express.js", "Koa.js", "Prisma"]
   }, {
     "name": "Domain Knowledge",
-    "skill": ["HTML & CSS", "CSS preprocessor", "RWD", "Web Development", "RESTful WebService", "GraphQL", "WebSocket", "DBMS", "UI/UX Design", "Linux Server Administration", "Google Analytics"]
+    "skill": ["HTML & CSS", "CSS Preprocessor", "RWD", "Web Development", "RESTful WebService", "GraphQL", "WebSocket", "RDBMS", "MongoDB", "UI/UX Design", "Linux Server Administration", "Docker"]
   }, {
     "name": "Software & Utility",
-    "skill": ["Git", "Adobe Ps/Ai/Id", "Sketch"]
+    "skill": ["Git", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Sketch", "Google Analytics", "Google Tag Manager"]
   }],
   "experience": [
     [{
