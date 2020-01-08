@@ -52,7 +52,6 @@
     },
     methods: {
       langDetect () {
-        console.log(profile.mulitLang.filter(e => (e.name === this.$route.query.lang))[0])
         this.lang = this.$route.query.lang ? profile.mulitLang.filter(e => (e.name === this.$route.query.lang))[0] : profile.mulitLang[0]
       }
     }
